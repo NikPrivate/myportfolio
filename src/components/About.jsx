@@ -38,7 +38,7 @@ function About() {
           <img
             className="object-cover object-center rounded-full"
             alt="hero"
-            src="./public/me5.png"
+            src="https://izzatportfolio.netlify.app/me5.png"
           />
         </div>
       </div>

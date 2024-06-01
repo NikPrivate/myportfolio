@@ -38,7 +38,7 @@ function About() {
           <img
             className="object-cover object-center rounded-full"
             alt="hero"
-            src="./src/assets/me5.png"
+            src="./public/me5.png"
           />
         </div>
       </div>

@@ -4,25 +4,13 @@ function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [values, setValues] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
-  }
+  const [errors, setErrors] = useState({});
 
   return (
     <section id="contact">
@@ -67,7 +55,8 @@ function Contact() {
         <form
           netlify
           name="contact"
-          onSubmit={handleSubmit}
+          action="/contact"
+          method="post"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <h2 className="sm:text-4xl text-3xl mb-1 font-medium title-font">
@@ -78,38 +67,38 @@ function Contact() {
             interested in hiring me, feel free to leave a message
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm">
+            <label for="name" className="leading-7 text-sm">
               Name
             </label>
             <input
+              required
               type="text"
               id="name"
               name="name"
               className="w-full bg-gray-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setName(e.target.value)}
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm ">
+            <label for="email" className="leading-7 text-sm ">
               Email
             </label>
             <input
+              required
               type="email"
               id="email"
               name="email"
               className="w-full bg-gray-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="message" className="leading-7 text-sm">
+            <label hfor="message" className="leading-7 text-sm">
               Message
             </label>
             <textarea
+              required
               id="message"
               name="message"
               className="w-full bg-gray-300 border-0 py-2 px-3 focus:outline-none hover:bg-gray-350 rounded text-lg"
-              onChange={(e) => setMessage(e.target.value)}
             />
           </div>
           <button

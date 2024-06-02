@@ -12,8 +12,9 @@ function Project() {
             System/Apps I've Built
           </h1>
           <p>
-            This includes all the cool stuff I built throughout my degree,
-            including both assignment projects and my personal projects
+            This portfolio includes all the significant projects I developed
+            during my degree, encompassing both assignment-related and personal
+            endeavors
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -26,11 +27,11 @@ function Project() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center
+                  className="absolute inset-0 w-full h-full object-cover object-center rounded-xl
                 "
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-300 bg-gray-300 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-300 bg-gray-300 opacity-0 hover:opacity-100 rounded-xl">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black-400 mb-1">
                     {project.subtitle}
                   </h2>

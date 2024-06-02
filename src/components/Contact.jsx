@@ -88,7 +88,7 @@ function Contact() {
               required
               id="message"
               name="message"
-              className="w-full bg-gray-300 border-0 py-2 px-3 focus:outline-none hover:bg-gray-350 rounded text-lg"
+              className="w-full bg-gray-300 border py-2 px-3 border-gray-700 focus:border-indigo-500 hover:bg-gray-350 rounded text-lg"
             />
           </div>
           <button

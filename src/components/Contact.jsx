@@ -1,17 +1,6 @@
 import React, { useState } from "react";
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [values, setValues] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const [errors, setErrors] = useState({});
-
   return (
     <section id="contact">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -70,6 +59,7 @@ function Contact() {
             <label for="name" className="leading-7 text-sm">
               Name
             </label>
+            <input type="hidden" name="form-name" value="contact" />
             <input
               required
               type="text"

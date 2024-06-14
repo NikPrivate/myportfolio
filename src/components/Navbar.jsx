@@ -21,7 +21,7 @@ function Navbar() {
             to="project"
             smooth={true}
             duration={500}
-            className="mr-5 text-gray-600 hover:text-green-500 cursor-pointer"
+            className="mr-5 text-gray-600 hover:text-green-500 cursor-pointer font-medium"
           >
             Past Work
           </Link>
@@ -29,7 +29,7 @@ function Navbar() {
             to="skills"
             smooth={true}
             duration={500}
-            className="mr-5 text-gray-600 hover:text-green-500 cursor-pointer"
+            className="mr-5 text-gray-600 hover:text-green-500 cursor-pointer font-medium"
           >
             Skills
           </Link>
@@ -38,7 +38,7 @@ function Navbar() {
           to="contact"
           smooth={true}
           duration={500}
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 text-white cursor-pointer"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded-md text-lg mt-4 md:mt-0 text-white cursor-pointer"
         >
           Hire Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />

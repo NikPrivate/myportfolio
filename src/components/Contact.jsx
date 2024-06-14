@@ -51,12 +51,13 @@ function Contact() {
           <h2 className="sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
-          <p>
+          <p className="text-lg">
             Please provide your feedback on my personal website. If you are
             interested in hiring me, feel free to leave a message
           </p>
+          <br />
           <div className="relative mb-4">
-            <label for="name" className="leading-7 text-sm">
+            <label for="name" className=" leading-7 text-base font-medium">
               Name
             </label>
             <input type="hidden" name="form-name" value="contact" />
@@ -69,7 +70,7 @@ function Contact() {
             />
           </div>
           <div className="relative mb-4">
-            <label for="email" className="leading-7 text-sm ">
+            <label for="email" className="leading-7 text-base font-medium">
               Email
             </label>
             <input
@@ -81,7 +82,7 @@ function Contact() {
             />
           </div>
           <div className="relative mb-4">
-            <label hfor="message" className="leading-7 text-sm">
+            <label hfor="message" className="leading-7 text-base font-medium">
               Message
             </label>
             <textarea

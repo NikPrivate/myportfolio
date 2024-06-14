@@ -11,7 +11,7 @@ function Project() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
             System/Apps I've Built
           </h1>
-          <p>
+          <p className="text-xl ">
             This portfolio includes all the significant projects I developed
             during my degree, encompassing both assignment-related and personal
             endeavors

@@ -12,7 +12,7 @@ function Skills() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font  mb-4">
             Skills & amp: Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             This is all list of skills and Technologies that I have used and
             learned during college and my free time.
           </p>

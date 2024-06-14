@@ -11,7 +11,7 @@ function About() {
             <br className="hidden lg:inline-block" />I have a passion for
             developing innovative solutions.
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className=" text-lg mb-8 leading-relaxed">
             A motivated Computer Science student at Universiti Teknologi Mara
             have an experience in Web, Mobile Development and Database
             Management. I thrive in collaborative environments and would like to

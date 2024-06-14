@@ -5,7 +5,7 @@ export const projects = [
     description:
       "This project involves the development of a machine learning model using Convolutional Neural Networks (CNNs) to detect scoliosis in early childhood. By analyzing medical images, the model aims to provide an accurate, non-invasive, and early diagnosis of scoliosis, potentially improving treatment outcomes and quality of life for young patients.",
     image: "https://izzatportfolio.netlify.app//project-scoliosis.jpg",
-    link: "https://github.com/NikPrivate/Scoliosis-app",
+    link: "https://github.com/NikPrivate/Scoliosis-Detection-App/tree/main",
   },
   {
     title: "My PortFolio",

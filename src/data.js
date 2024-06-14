@@ -15,6 +15,14 @@ export const projects = [
     image: "https://izzatportfolio.netlify.app//project-personal_website.jpg",
     link: "https://github.com/NikPrivate/myportfolio",
   },
+  {
+    title: "Python Automation Youtube Video Downloader",
+    subtitle: "Python",
+    description:
+      "This project demonstrates the automation of downloading YouTube videos using Python, a valuable addition to my portfolio. It highlights my ability to integrate third-party libraries, manage dependencies, and automate repetitive tasks efficiently.",
+    image: "https://izzatportfolio.netlify.app//python_automation.jpg",
+    link: "https://github.com/NikPrivate/Python_Automation_Youtube_download",
+  },
 ];
 
 export const skills = [

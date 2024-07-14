@@ -38,7 +38,9 @@ function Project() {
                   <h1 className="title-font text-lg font-medium text-black mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed text-justify">
+                    {project.description}
+                  </p>
                 </div>
               </div>
             </a>

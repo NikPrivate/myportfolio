@@ -8,10 +8,11 @@ function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium ">
             Hello, I'm Nik Ahmad Izzat.
+            <br />
             <br className="hidden lg:inline-block" />I have a passion for
             developing innovative solutions.
           </h1>
-          <p className=" text-lg mb-8 leading-relaxed">
+          <p className=" text-lg mb-8 leading-relaxed text-justify">
             A motivated Computer Science student at Universiti Teknologi Mara
             have an experience in Web, Mobile Development and Database
             Management. I thrive in collaborative environments and would like to
@@ -43,7 +44,7 @@ function About() {
           <img
             className="object-cover object-center rounded-full"
             alt="hero"
-            src="https://izzatportfolio.netlify.app/me5.png"
+            src="https://izzatportfolio.netlify.app/me6.jpg"
           />
         </div>
       </div>

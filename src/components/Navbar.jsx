@@ -21,7 +21,7 @@ function Navbar() {
             to="project"
             smooth={true}
             duration={500}
-            className="mr-5 text-gray-600 hover:text-green-500 cursor-pointer font-medium"
+            className="mr-5 text-gray-600 hover:text-gray-800 cursor-pointer font-medium text-lg"
           >
             Past Work
           </Link>
@@ -29,7 +29,7 @@ function Navbar() {
             to="skills"
             smooth={true}
             duration={500}
-            className="mr-5 text-gray-600 hover:text-green-500 cursor-pointer font-medium"
+            className="mr-5 text-gray-600 hover:text-gray-800 cursor-pointer font-medium text-lg"
           >
             Skills
           </Link>
